@@ -30,19 +30,5 @@ spec:
       externalTrafficPolicy: Cluster
     ingress:
       enabled: false
-    livenessProbe:
-      httpGet:
-        path: /
-        port: http
-      initialDelaySeconds: 30
-      timeoutSeconds: 5
-      failureThreshold: 6
-    readinessProbe:
-      httpGet:
-        path: /
-        port: http
-      initialDelaySeconds: 5
-      timeoutSeconds: 3
-      periodSeconds: 5
     metrics:
       enabled: false

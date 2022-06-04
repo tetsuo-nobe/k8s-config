@@ -9,7 +9,7 @@ metadata:
     flux.weave.works/tag.nginx: semver:~1.16
     flux.weave.works/locked: 'true'
     flux.weave.works/locked_msg: '"Halt updates for now"'
-    flux.weave.works/locked_user: User Name <user@example.com>
+    flux.weave.works/locked_user: Nobe Name <user@example.com>
 spec:
   releaseName: mywebserver
   chart:
